@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600&family=Work+Sans:ital,wght@0,200;0,300;1,200;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: #eceef1;
+
+    font-family: 'Work Sans', sans-serif;
+}
+
+form {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    width: 380px;
+    align-items: center;
+    border: 1px solid #c7c7c7;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 30px;
+}
+
+.heading {
+    text-align: center;
+}
+
+li:not(.heading) {
+    margin-top: 20px;
+}
+
+button {
+    align-content: center;
+}
+
+h2 {
+    color: #404144;
+    font-size: 24px;
+    margin: 0;
+}
+
+h4 {
+    color: #545558;
+    font-size: 14px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 11.5px;
+    margin-right: 11.5px;
+}
+
+label:not(#checkbox-label), input:not(#checkbox) {
+    display: block;
+}
+
+label {
+    font-size: 14px;
+    padding-bottom: 6px;
+}
+
+input:not(#checkbox) {
+    font-size: 17px;
+    width: 100%;
+    height:32px;
+    padding: 0 6px 0 8px;
+    border: 1px solid #c1c5c8;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+a {
+    color: #0077c5;
+}
+
+p#footer {
+    color: #898989;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+    font-style: italic;
+}
+
+p#phone-charges {
+    font-size: 10px;
+    color: #4b4b4b;
+}
+
+p#phone-rec {
+    font-size: 12px;
+    color: #ed953c;
+    
+}
+#psw-message {
+    font-size: 11px;
+}
+
+.valid {
+    color: green;
+}
+  
+.valid:before {
+    position: relative;
+    padding-right: 3px;
+    content: "✔";
+}
+
+.invalid {
+    color: red;
+}
+  
+.invalid:before {
+    position: relative;
+    padding-right: 3px;
+    content: "✖";
+}
+
+button {
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding: 6px 12px;
+    background-color: #0077c5;
+    border: 1px solid #4b4b4b;
+    border-radius: 5px;
+}
+
+.error {
+    color: #ee5353;
+    font-size: 12px;
+}
